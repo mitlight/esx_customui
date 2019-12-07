@@ -1,0 +1,111 @@
+.playerStats{
+    position: absolute;
+    left: 350px; /* Default: 350px */
+    bottom: 20px; /* Default: 20px */
+    left: 85.85%; /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+    bottom: 1.85%; /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+}
+
+.status{
+    display: flex;
+    width: 205px;
+    position: relative;
+    justify-content: space-between;
+}
+
+
+.hunger{
+    border: 1px solid rgb(135, 109, 255);
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+	border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(136, 109, 255, 0.616);
+    rotate: z 9.43rad;
+}
+
+.hunger .bg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    rotate: z 9.43rad;
+}
+
+.hunger img{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#boxHunger {
+    background: #1E88E5;
+}
+#boxThirst {
+    background: #1E88E5;
+}
+
+#boxStamina {
+    background: #1E88E5;
+}
+
+#boxHealth {
+    background: #1E88E5;
+}
+
+#boxArmor {
+    background: #1E88E5;
+}
+
+/*สีหลอด*/
+#boxStamina {
+    background: #d24dff;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxHunger {
+	background: #ffa31a;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxThirst {
+	background: #0099ff;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxHealth {
+	background: #00e600;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxArmor {
+	background: #0099ff;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxVoice {
+	background: #b3b3b3;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+body {
+    overflow: hidden;
+    height:1080px;
+    width:100%;
+}
